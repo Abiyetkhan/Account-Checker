@@ -1,6 +1,1 @@
-python-telegram-bot
-requests
-datetime
-pymongo
-bs4
-throwbin
+python-telegram-bot==20.0
