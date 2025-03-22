@@ -10,7 +10,7 @@ from Miscellaneous.Scraper import pastebin, text_scraper, throwbin, ghostbin
 import os
 
 
-bot_token = os.environ.get('TG_BOT_TOKEN')
+bot_token = os.environ.get('7518545320:AAF2gJZeG8Hw9UFi2d6oiLRqFDFS_zdLPi0')
 startmessage = [
     [
         InlineKeyboardButton(
