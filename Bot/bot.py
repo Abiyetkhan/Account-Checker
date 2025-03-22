@@ -9,7 +9,11 @@ from Miscellaneous.Scraper import pastebin, text_scraper, throwbin, ghostbin
 import os
 
 
+import os
 bot_token = os.environ.get("BOT_TOKEN")
+
+if not bot_token:
+    raise ValueError("Missing Telegram bot token. Set BOT_TOKEN in Railway environment variables.")
 startmessage = [
     [
         InlineKeyboardButton(
